@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="manga.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <title>Manga</title>
+</head>
+<body>
+    <header class="row" >
+        
+        <nav class="col-md-2" >
+                <img  class="navlogo " src="manga.png" alt="">
+            
+        </nav>
+        <div class=" navdiv col-md-6" >
+                <ul class="row " >
+                        
+                    <li class=" linav " ><a href="manga.html">Home</a> </li>
+                    <li class=" linav " ><a  href="mangalist.html">Manga List</a> </li>
+                    <li class="linav "><a href="latestchaps.html">Latest Chapters</a>  </li>
+                    <li class=" linav "><a href="news.html">News</a> </li>
+                    </ul>
+                        
+                    
+        </div>
+        <div class="btndiv">
+            <button id="signup" type="button" class="btn btn-success"><a class="asign" href="signin.html">Sign In</a> </button>
+                    <button  id="signin" type="button" class="btn btn-success btn2"><a class="asign"href="signup.html"> Sign Up</a> </button>
+        </div>
+    </header>
+    <main class="d-flex flex-column justify-content-center" >
+
+        <div class="div1 row" data-aos="zoom-in">
+            <div class="imgdiv col-md-4" >
+                <a href="https://www.on-manga.me/manga/one-piece-/938/1"><img class="" src="onepiece.jpg" alt=""></a>
+                    
+                    <div class="txtdiv" >#938:Her Secret</div>
+            </div>
+            <div class="imgdiv col-4" data-aos="zoom-in">
+                <a href="https://www.on-manga.me/manga/hunter-x-hunter/390/1"><img class="" src="hisoka.jpg" alt=""></a>
+                <div class="txtdiv" >#390:CLASH</div>
+            </div>
+            <div class="imgdiv col-md-4" data-aos="zoom-in">
+                <a href="https://www.on-manga.me/manga/the_promised_neverland/129/1"><img class="" src="rey.jpg" alt=""></a>
+                
+                <div class="txtdiv" >#129:My Burden</div>
+            </div>
+            
+
+        </div>
+
+        <div class="latest row" >
+            <div class="latestchaps col-7">
+             <div class=" t1">Latest Chapters</div>
+             <div class="content ">
+                 <h3 class="onepiece" >
+                     <a href="https://www.on-manga.me/manga/one-piece-/938/1" style="text-decoration:none">One Piece</a>
+                 </h3>
+                 <h6>#938:Her Secret</h6>
+                
+             </div>
+             <div class="content ">
+                    <h3 class="onepiece" >
+                        <a href="https://www.on-manga.me/manga/hunter-x-hunter/390/1" style="text-decoration:none">HUNTERXHUNTER</a>
+                    </h3>
+                    <h6>#390:CLASH</h6>
+                   
+                </div>
+                <div class="content lastdiv ">
+                    <h3 class="onepiece" >
+                        <a href="https://www.on-manga.me/manga/the_promised_neverland/129/1" style="text-decoration:none">The Promised Neverland</a>
+                    </h3>
+                    <h6>#129:My Burden</h6>
+                    
+                </div>
+            </div>
+            
+           
+           
+            <div class=" mostrated col-4">
+                <div class="title">Most Rated</div>
+                <div class="content d-flex ">
+                    <img class="" src="lilpiece.jpg" alt="">
+                    <span class="genspan " >Genres:Action, Adventure, Comedy, Fantasy, Shounen, Super Power</span>
+                    <span>Mangaka:Oda, Eiichiro (Story & Art)</span>
+                </div>
+                <div class="content d-flex ">
+                    <img class="hisoka" src="lilhisoka.jpg" alt="">
+                    <span class="genspan " >Genres:Action, Adventure, Fantasy, Shounen, Super Power</span>
+                    <span>Mangaka: Togashi, Yoshihiro (Story & Art)</span>
+                </div>
+                <div class="content d-flex lastcontent ">
+                    <img class="rey" src="lilrey.JPG" alt="">
+                    <span class="genspan " >Genres:Mystery, Horror, Sci-Fi, Shounen</span>
+                    <span>Mangaka: Demizu, Posuka (Art), Shirai, Kaiu (Story)</span>
+                </div>
+            </div>
+
+        
+    </main>
+    <iframe src="joji.mp4" allow="autoplay" id="video"></iframe>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+                        AOS.init({
+   easing: 'ease-out-back',
+   duration: 800,
+   delay: 300,
+   once: true,
+   disable: 'mobile'
+});
+                      </script>
+</body>
+</html>

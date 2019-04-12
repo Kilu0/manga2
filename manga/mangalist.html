@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="manga.css">
+    <link rel="stylesheet" href="slider.css">
+    <script src="slider.js"></script>
+    <script  src="jquery-3.3.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Manga List</title>
+</head>
+<body>
+        <header class="row" >
+        
+                <nav class="col-md-2" >
+                        <img  class="navlogo " src="manga.png" alt="">
+                    
+                </nav>
+                <div class=" navdiv col-md-6" >
+                        <ul class="row " >
+                                
+                            <li class=" linav " ><a href="manga.html">Home</a> </li>
+                            <li class=" linav " ><a  href="page2.html">Manga List</a> </li>
+                            <li class="linav "><a href="latestchaps.html">Latest Chapters</a>  </li>
+                            <li class=" linav "><a href="news.html">News</a> </li>
+                        </ul>
+                </div>
+        </div>
+        <div class="btndiv">
+                        <button id="signup" type="button" class="btn btn-success"><a class="asign" href="signin.html">Sign In</a> </button>
+                    <button  id="signin" type="button" class="btn btn-success btn2"><a class="asign"href="signup.html"> Sign Up</a> </button>
+        </div>
+            </header>
+        <main>
+                <div class="divlist row d-flex " >
+                        <div class="img col-md-3 " data-aos="zoom-in">
+                                <img class="firststar" src="onepiece.jpg" alt="">
+                                <div class="txtdiv" >#938:Her Secret</div>
+                        </div>
+                        <div class="img col-md-3" data-aos="zoom-in">
+                                <img class="firststar" src="hisoka.jpg" alt="">
+                                <div class="txtdiv" >#390:CLASH</div>
+                        </div>
+                        <div class="img col-md-3" data-aos="zoom-in">
+                                <img class="firststar" src="rey.jpg" alt="">
+                                <div class="txtdiv" >#129:My Burden</div>
+                        </div>
+                        <div class="img col-md-3" data-aos="zoom-in">
+                                <img class="firststar" src="death.jpg" alt="">
+                                <div class="txtdiv" >#SOON</div>
+                        </div>
+                        <div class="img col-md-3" data-aos="zoom-in">
+                                <img class="firststar" src="nant.png" alt="">
+                                <div class="txtdiv" >#SOON</div>
+                        </div>
+                        <div class="img col-md-3" data-aos="zoom-in">
+                                <img class="firststar" src="dragon.jpg" alt="">
+                                <div class="txtdiv" >#SOON</div>
+                        </div>
+                        <div class="img col-md-3" data-aos="zoom-in">
+                                <img class="firststar" src="boku.png" alt="">
+                                <div class="txtdiv" >#SOON</div>
+                        </div>
+                        <div class="img col-md-3" data-aos="zoom-in">
+                                <img class="firststar" src="levi.png" alt="">
+                                <div class="txtdiv" >#SOON</div>
+                        </div>
+                        <div class="img col-md-3" data-aos="zoom-in">
+                                <img class="firststar" src="baki.jpg" alt="">
+                                <div class="txtdiv" >#SOON</div>
+                        </div>
+                        <div class="img col-md-3" data-aos="zoom-in">
+                                <img class="firststar" src="tokyo.jpg" alt="">
+                                <div class="txtdiv" >#SOON</div>
+                        </div>
+                        <div class="img col-md-3" data-aos="zoom-in">
+                                <img class="firststar" src="mob.jpg" alt="">
+                                <div class="txtdiv" >#SOON</div>
+                                <!-- Button trigger modal -->
+                                <p class="pmodal" id="btnMode"   data-toggle="modal" data-dismiss="modal" aria-hidden="true" data-target="#mymodal">
+                                        AMV
+                                        </p>
+                                        
+                        </div>
+                        <div class="img col-md-3 "data-aos="zoom-in">
+                                <img class="firststar" src="punchman.jpg" alt="">
+                                <div class="txtdiv" >#SOON   </div>
+                                <!-- Button trigger modal 1 -->
+                                <p class="pmodal" id="btnModel1"   data-toggle="modal" data-dismiss="modal" aria-hidden="true" data-target="#mymodal1">
+                                AMV
+                                </p>
+                        </div>
+                </div>
+                
+        </main>
+        <!-- Modal 1-->
+        <div class="modal hide fade" id="mymodal1" aria-hidden="true" >
+                <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                        
+                        <div class="modal-body">
+                                <video controls id="video1" style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
+                                        <source src="punch.mp4" type="video/mp4">
+                                        Your browser doesn't support HTML5 video tag.
+                                      </video>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                        </div>
+                </div>
+        </div>
+
+        <!-- Modal-->
+        <div class="modal hide fade" id="mymodal" aria-hidden="true" >
+                <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                        
+                        <div class="modal-body">
+                                <video controls id="video2" style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
+                                        <source src="punch.mp4" type="video/mp4">
+                                        Your browser doesn't support HTML5 video tag.
+                                      </video>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                        </div>
+                </div>
+        </div>
+        <iframe src="joji.mp4" allow="" id="video"></iframe>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+                AOS.init({
+                        easing: 'ease-out-back',
+                        duration: 800,
+                        delay: 300,
+                        once: true,
+                        disable: 'mobile'
+                });
+
+                
+
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="manga.css">
+    <link rel="stylesheet" href="slider.css">
+    <script src="manga.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="register d-flex justify-content-center">
+            <form id="registerForm" class="row" action="">
+
+                    <div class="col-4 divImg">
+                       <img src="ryuk.jpg" alt="">
+                    </div>
+            
+                    <div class="col-8 divInputs">
+                        <div class="row form-group">
+                            <div class="col-6">
+                                <label for="UserName">Username</label>
+                                <input id="UserName" oninput="testName(this.value, this.id)" placeholder="UserName" type="text" required>
+                            </div>
+            
+                            <div class="col-6">
+                                <label for="Mail">Mail</label>
+                                <input id="Mail" oninput="testmail(this.value)" placeholder="Mail" type="text" required>
+                            </div>
+                        </div>
+            
+                        <div class="row form-group">
+                            <div class="col-6">
+                                <label for="FirastName">Firast Name</label>
+                                <input id="FirastName" oninput="testName(this.value, this.id)" placeholder="FirastName" type="text" required>
+                            </div>
+                    
+                            <div class="col-6">
+                                <label for="LastName">Last Name</label>
+                                <input id="LastName" oninput="testName(this.value, this.id)" placeholder="LastName" type="text" required>
+                            </div>
+                        </div>
+            
+                        <div class="row form-group">
+                            <div class="col-6">
+                                <label for="Password">your Password</label>
+                                <input id="Password" oninput="passW(this.value, this.id)" placeholder="you Password" type="password" required>
+                            </div>
+                    
+                            <div class="col-6">
+                                <label for="ConfirmPassword">Confirm your Password</label>
+                                <input id="ConfirmPassword" oninput="passW(this.value, this.id)" placeholder="Confirm your Password" type="password" required>
+                            </div>
+                        </div>
+                        <div class="buttons row" >
+                                <button id="send"  class="btn btn-primary col-5 send" type="submit" onclick="validateForm()">Send</button>
+                                <button id="reset" class="btn btn-primary col-5 reset" type="reset" >Reset</button>
+                                </div>
+                    </div>
+                    
+            
+                </form>
+    </div>
+ 
+</body>
+</html>

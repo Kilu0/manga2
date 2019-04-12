@@ -1,0 +1,426 @@
+header{
+    background-color: #17122f;
+    color: white;
+}
+.navlogo{
+    width: 67%;
+    height: 73px;
+}
+.li{
+    padding: none;
+    
+}
+ul {
+    list-style-type: none;
+   
+  }
+  .linav{
+    padding-top: 18px;
+    padding-left: 59px;
+  }
+  .navdiv{
+    margin-left: 91px;
+    padding-top: 5px;
+  }
+  nav{
+    margin-left: 117px;
+  }
+  .div1{
+      background-color: white;
+      width: 55%;
+      border-radius: 4px;
+      border: solid 2px #2e2461;
+  }
+  .btndiv{
+    padding-top: 16px;
+  }
+  .btn-success{
+    background-color: #34296d;
+    border-color: #17122f;
+  }
+  .btn-success:hover {
+    color: #fff;
+    background-color: #17122f;
+    border-color: #34296d;
+  }
+  
+
+main{
+    margin-top: 38px;
+    align-items: center;
+}
+.imgdiv img{
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: -7px;
+}
+.imgdiv{
+  padding: 15px;
+}
+.txtdiv{
+  background-color: #34296d;
+  height: 45px;
+  border-radius: 0 0 10px 10px;
+  color: white;
+  padding-top: 14px;
+  text-align: center;
+}
+.latest{
+ 
+  margin-top: 21px;
+  width: 55%;
+}
+
+.latestchaps{
+  padding: 0;
+  
+  border: solid 1px;
+  margin-right: 3%;
+  background-color: white;
+  border-radius: 7px 7px 0px 0px;
+  border: none;
+  
+}
+
+
+.mostrated.col-4{
+  padding: 0;
+  
+  
+  flex: 2 2 36%;
+  max-width: 40%;
+  background-color: white;
+  border-radius: 7px 7px 0px 0px;
+  
+}
+
+.title{
+  background-color: #17122f;
+  border-radius: 4px 4px 0px 0px;
+  color: white;
+  padding-left: 16px;
+}
+.t1{
+  border-radius: 5px 5px 0px 0px;
+  background-color: #17122f;
+  color: white;
+  padding-left: 16px;
+}
+.content{
+  color: #222;
+  
+  border: solid 1px #8c87878c;
+    border-top: none;
+}
+.onepiece{
+  font-size: 14px;
+    font-weight: bold;
+}
+.content h3{
+  padding-left: 18px;
+    padding-top: 8px;
+}
+.content h6{
+  margin: 0;
+    padding: 0;
+    font-size: 14px;
+    padding-left: 18px;
+    padding-bottom: 12px;
+    
+}
+.lastdiv{
+  border-radius: 0 0 10px 10px;
+}
+a{
+  color: #7d00ff;
+  
+}
+a:hover{
+  color: #5526ec;
+}
+.linav a{
+  text-decoration: none;
+  color: white;
+}
+.linav a:hover{
+  color: #5526ec;
+}
+.content span{
+  font-size: 10px;
+    padding-left: 13px;
+    font-weight: 1000;
+    padding-top: 10px;
+}
+.content img{
+  width: 105px;
+    height: 102px;
+    padding: 3px;
+    border-radius: 8px;
+}
+.lastcontent{
+  border-bottom: none;
+
+
+}
+
+
+/*page2 html*/
+
+.divlist{
+  
+  width: 70%;
+  margin-left: 212px;
+  border-radius: 4px;
+  border: solid 2px #2e2461;
+}
+.firststar{
+  
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: -7px
+    
+}
+.divlist div{
+  padding: 12px;
+}
+
+
+
+/*latestchaps*/
+
+
+.latestchaps2{
+  width: 100%;
+  margin-left: 482px;
+}
+
+
+
+
+/*newspage*/
+
+.newstitle{
+  background-color: #17122f;
+  color: white;
+  border: solid 1px #17122f;
+  padding-left: 32px;
+}
+
+.newscontent{
+  background-color: white;
+  border: solid 1px #17122f;
+  padding-left: 32px;
+}
+.mainnews{
+  align-items: center;
+}
+.news{
+  width: 55%;
+}
+
+
+/*sign up*/
+
+
+
+#registerForm {
+  width: 50%;
+  background: #000000;
+  border-radius: 10px;
+
+}
+
+#registerForm div img{
+  width: 100%;
+}
+
+
+
+#registerForm .divImg{
+ padding: 0;
+
+}
+
+#registerForm .divInputs{
+  padding: 50px 20px 40px 30px;
+  color: aliceblue;
+}
+
+.register{
+  padding-top: 160px;
+  padding-bottom: 170px;
+}
+
+
+
+.divImg{
+	/*background-image:url("ryuk.jpg");*/
+	
+  background-size:cover;
+  height: 100%;
+  width: 100%;
+	border-radius: 10px 0px 0px 10px;
+	-webkit-animation: anim 20s infinite ease-in-out  ;/*pour Safari et Chrome*/
+	-webkit-animation-delay: 2s;
+	
+	-moz-animation:anim 20s infinite ease-in-out ; /*pour Firefox */
+	-moz-animation-delay: 2s;
+	
+}	
+
+.divImg img{
+  height: 100%;
+    width: 106%;
+}
+
+	
+	
+  /*pour Safari et Chrome*/
+  /*
+@-webkit-keyframes anim{
+	0%  {background-image:url("ryuk.jpg");}
+	
+	10%  {background-image:url("drake.jpg");}
+	
+	35%  {background-image:url("spirit.jpg");}
+	
+  70%{
+      background-image:url("drake.jpg");
+  }	
+	
+  100%  {background-image:url("ryuk.jpg");}			
+}
+*/
+
+
+.register{
+	background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
+	background: #114357;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ 
+  	/*
+	-webkit-animation: animColor 20s infinite ease-in-out  ;/*pour Safari et Chrome*/
+	/*-webkit-animation-delay: 2s;
+	
+	-moz-animation:animColor 20s infinite ease-in-out ; /*pour Firefox */
+	/*-moz-animation-delay: 2s;
+	*/
+}	
+
+	
+	
+	/*pour Safari et Chrome*/
+@-webkit-keyframes animColor{
+	0%  {
+    background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
+  }
+	
+	10%  {
+    background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
+  }
+	
+	30%  {
+    background-image: linear-gradient(135deg, transparent, transparent 57%, rgba(100, 233, 0, 0.6509803921568628) 57%, rgb(255, 208, 47) 78%, transparent 78%, transparent), linear-gradient(135deg, rgba(0, 0, 0, 0.5098039215686274), transparent 33%, rgba(255, 255, 255, 0.15) 33%, rgba(255, 255, 255, 0.15) 57%, transparent 57%, transparent), linear-gradient(135deg, rgba(24, 119, 237, 0.7), rgba(237, 24, 147, 0.82) 47%, rgb(159, 255, 31) 47%, #ffd02f);
+  }
+  
+  50%  {
+    background: #114357;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+	
+  70%{
+    background: #114357;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }	
+	
+  100%  {
+    background: #114357;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }			
+}
+
+.divInputs input{
+  border-radius: 4px;
+    border: none;
+}
+				
+.asign{
+  color: white;
+  text-decoration: none;
+}		
+				
+	
+
+/*signin*/
+
+
+.userinput{
+  padding-left: 57px;
+}
+.userinput1{
+  width: 242%;
+  height: 36px;
+}
+.userinput2{
+  width: 458%;
+  height: 36px;
+}
+
+.userinput3{
+  padding-left: 43px;
+}
+.submite{
+  margin-right: 93px;
+  background-color: #34296d;
+    border-color: #17122f;
+}
+.submite:hover{
+  background-color: #17122f;
+    border-color: #34296d;
+}
+
+.text-info {
+  color: #34296d!important;
+}
+a.text-info:focus, a.text-info:hover {
+  color: #34296d!important;
+}
+
+
+
+
+.reset{
+  margin-left: 52px;
+  background-color: #34296d;
+  border-color: #17122f;
+}
+.send{
+  margin-left: 11px;
+  background-color: #34296d;
+    border-color: #17122f;
+}
+.send:hover{
+  background-color: #17122f;
+  border-color: #34296d;
+}
+.reset:hover{
+  background-color: #17122f;
+  border-color: #34296d;
+}
+
+
+
+.pmodal{
+  text-decoration: underline;
+    cursor: pointer;
+}

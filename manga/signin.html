@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="manga.css">
+    <script src="manga.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="register d-flex justify-content-center">
+        <form id="registerForm" class="row" action="">
+
+                <div class="col-4 divImg">
+                   <img src="jesus.jpg" alt="">
+                </div>
+        
+                <div class="col-8 divInputs">
+                    <div class="row" >
+                    <div class="col-6 userinput">
+                    <label for="ConfirmPassword">Username:</label>
+                    <input class="userinput1" id="UserName" oninput="testName(this.value, this.id)" placeholder="Username" type="text" required>
+                </div>
+                <div class="col-8 divInputs">
+                        <div class="row" >
+                        <div class="col-6 userinput3">
+                        <label for="ConfirmPassword">Password:</label>
+                        <input class="userinput2" id="ConfirmPassword" oninput="passW(this.value, this.id)" placeholder="Password" type="password" required>
+                    </div>
+                </div>
+                   </div>
+                   
+                   
+                </div>
+                <div id="register-link" class="text-right ">
+                    <button type="button" id="send" class="btn btn-primary submite col-4" type="submit" onclick="validateForm()">Submit</button>
+                        <a href="signup.html" class="text-info col-8 Register">Register here</a>
+                    
+                             
+                </div>
+               </div>
+               
+            </form>
+</div>
+</body>
+</html>
